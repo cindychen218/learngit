@@ -1,0 +1,70 @@
+/*
+Error: Undefined variable: "$index-tab-bgcolor".
+        on line 24 of indexTab.scss
+
+19: }
+20: /*工作台tab*\/
+21: .index-tabs {
+22:   width: 100%;
+23:   height: 39px;
+24:   background-color: $index-tab-bgcolor;
+25:   border-bottom: solid 1px $index-tab-bdcolor;
+26:   @include clear-after;
+27:   >.index-tab-gzt {
+28:     width: 140px;
+29:     @include index-tab-one;
+
+Backtrace:
+indexTab.scss:24
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/sass_scss.rb:51:in `process_result'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/base.rb:52:in `parse'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/lib/sass/exec/base.rb:19:in `parse!'
+D:/Program Files/Ruby23-x64/lib/ruby/gems/2.3.0/gems/sass-3.5.1/bin/scss:13:in `<top (required)>'
+D:/Program Files/Ruby23-x64/bin/scss:22:in `load'
+D:/Program Files/Ruby23-x64/bin/scss:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$index-tab-bgcolor\".\A         on line 24 of indexTab.scss\A \A 19: }\A 20: /*工作台tab*/\A 21: .index-tabs {\A 22:   width: 100%;\A 23:   height: 39px;\A 24:   background-color: $index-tab-bgcolor;\A 25:   border-bottom: solid 1px $index-tab-bdcolor;\A 26:   @include clear-after;\A 27:   >.index-tab-gzt {\A 28:     width: 140px;\A 29:     @include index-tab-one;"; }

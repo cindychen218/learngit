@@ -1,0 +1,32 @@
+
+@font-face {font-family: "WdateIcon";
+  src: url('./WdateIcon/iconfont.eot?t=1528445361305'); /* IE9*/
+  src: url('./WdateIcon/iconfont.eot?t=1528445361305#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./WdateIcon/iconfont.woff?t=1528445361305') format('woff'),
+  url('./WdateIcon/iconfont.ttf?t=1528445361305') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./WdateIcon/iconfont.svg?t=1528445361305#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.WdateIcon {
+  font-family:"WdateIcon" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-timequick:before { content: "\e604"; }
+
+.icon-close:before { content: "\e79e"; }
+
+.icon-arrow2_down:before { content: "\e7ab"; }
+
+.icon-arrow2_up:before { content: "\e7a7"; }
+
+.icon-arrow2_left:before { content: "\e7ac"; }
+
+.icon-arrow2_first:before { content: "\e7a8"; }
+
+.icon-arrow2_right:before { content: "\e7a6"; }
+
+.icon-arrow2_last:before { content: "\e7a9"; }

@@ -1,0 +1,15 @@
+{
+  "name": "@yh/WdatePicker",
+  "version": "1.0.0",
+  "description": "WdatePicker",
+  "main": "WdatePicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cy",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "jquery":"1.11.0"
+  }
+}

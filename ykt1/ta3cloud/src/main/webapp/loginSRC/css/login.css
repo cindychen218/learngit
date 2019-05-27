@@ -1,0 +1,655 @@
+@CHARSET "UTF-8";
+body {
+	overflow: hidden;
+	font-family: 'Microsoft Yahei';
+	margin: 0;
+	padding: 0;
+	/*background: url(../img/cas/BG1.png) ;*/
+    /*background-size:100%;*/
+    /*height: 100%;*/
+
+	/*     background: url(../img/cas/background.png) center center no-repeat; */
+	/* background-size:100% 100%; */
+}
+
+.win-back {
+	width: 100%;
+	/*background: url("../images/000-40.png");*/
+	background-color:#282828;
+	opacity:0.5;
+	height: 700px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1001 !important;
+}
+.win-back-ie{
+    width: 100%;
+    background-color:#282828;
+    height: 700px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1001 !important;
+}
+
+.win-main label {
+	color: #333 !important;
+	width: 100%;
+}
+
+
+.form-item {
+	width: 64%;
+	margin-bottom: 16px;
+	margin-left:18.4%;
+	height: 40px;
+	border: 1px solid #dddddd;
+	background-color: #fff;
+	font-size:15px;
+	float:left;
+	border-radius:2px;
+}
+.form-welcome{
+	width: 72%;
+	/* margin:40px 0 0 92px; */
+	margin-top:7.1%;
+	margin-left:18.4%;
+	/*  margin-bottom: 15px;
+     margin-left:92px; */
+	height: 40px;
+	/* border-bottom: 1px solid #d8d8d8; */
+	font-size:14px;
+	float:left;
+}
+.form-item span{
+	color:#666;
+	display:block;
+	float:left;
+	width:20%;
+	height:40px;
+	/* padding-left:5px; */
+	line-height:40px;
+}
+.form-welcome b{
+	display:block;
+	float:left;
+	height:40px;
+	line-height:40px;
+	font-size: 30px;
+	color:#666666;
+}
+.input-img{
+	float:left;
+	margin:0 8px;
+	width:16px;
+	height:40px;
+}
+.person{
+	background: url("../img/cas/person.png") 0 center no-repeat;
+}
+.lock{
+	background: url("../img/cas/lock.png") 0 center no-repeat;
+}
+.verification{
+	background: url("../img/cas/verification.png") 0 center no-repeat;
+}
+.form-item input {
+	width: 65%;
+	height: 38px;
+	line-height: 38px;
+	border:none;
+	float: right;
+	outline: none;
+	color: #999;
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+.form-item .vcode {
+	 /*width: 92px !important;*/
+	/*width:28%;*/
+}
+
+.vcodeimg {
+	width: 90px;
+	height: 40px;
+	margin:0 0 0 0 !important;
+	float:right;
+	display:block;
+}
+
+.bottom-copyright {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+}
+.allerrors{
+	width:100%;
+	/* left:40px; */
+	height:20px;
+}
+.error {
+	color: red;
+	font-size: 14px;
+	/*background: url("../images/error_small.png") 0 center no-repeat;*/
+	margin-right:40px;
+	float:left;
+	text-align: left;
+}
+#status_chgpass{
+	padding-left: 30px;
+	margin-top: 5px;
+}
+.client-status {
+	margin: 0 0 0 2px;
+	color: red;
+	font-size: 14px;
+	float:left;
+}
+button {
+	cursor: pointer;
+	outline: none;
+}
+.win-main {
+	text-align:right;
+	width: 382px;
+	height: auto;
+	position: absolute;
+	z-index: 1002;
+	visibility:hidden;
+	border-radius: 4px;
+	background: #fff;
+	-webkit-box-shadow:-3px 3px 3px #474849;
+	box-shadow:-3px 3px 3px #474849;
+	-moz-box-shadow:-3px 3px 3px #474849;
+	/*visibility: hidden;*/
+}
+.win-main .win_word{
+	line-height:45px;
+	display:block;
+	margin-left:15px;
+	float:left;
+	background:url('../images/lock.png') left center no-repeat;
+	color:#fff;
+	font-size:18px;
+	text-indent: 29px;
+}
+.win-main .win_close{
+	line-height:45px;
+	width:16px;
+	display:block;
+	float:right;
+	margin-right:15px;
+	width:16px;
+	background: url('../images/close_icon.png') right center no-repeat;
+}
+.win_title{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	width:100%;
+	height: 45px;
+	background: #1c76b8;
+}
+.changePwd{
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	width:100%;
+	height: 45px;
+	background: #1c76b8;
+	margin-bottom: 15px;
+}
+.clearfloat:after{
+	content:"";
+	height:0;
+	display: block;
+	clear: both;
+}
+
+.changePwd .changePwd_title{
+	line-height:45px;
+	display:block;
+	margin-left:15px;
+	float:left;
+	background:url('../images/lock.png') left center no-repeat;
+	color:#fff;
+	font-size:18px;
+	text-indent: 29px;
+}
+.changePwd .changePwd_close{
+	line-height:45px;
+	width:16px;
+	display:block;
+	float:right;
+	margin-right:15px;
+	width:16px;
+	background: url('../images/close_icon.png') right center no-repeat;
+}
+.pwdInfo{
+	margin:15px 40px 0 0;
+	text-align: left;
+	width: 350px;
+}
+.pwdInfo * {
+	display: block;
+	font-size:14px;
+	color:#333333;
+	line-height:34px;
+	height:34px;
+	float: left;
+}
+.pwdInfo label{
+	line-height:38px;
+	text-align:right;
+	width:25%;
+	margin-right: 9px;
+}
+.pwdInfo input{
+	text-indent: 8px;
+	font-family:'Microsoft yahei';
+}
+.pwdInfo .required{
+	width:70%;
+	border:1px solid #dddddd;
+}
+.pwdInfo input:focus{
+	border:1.5px solid #3fa4ef;
+}
+center{
+	margin:30px auto 40px auto;
+	width:70%;
+	padding-left: 20px;
+}
+center button{
+	display: block;
+	float:left;
+	width: 103px;
+	border:1px solid #3fa4ef;
+	padding:12px 14px;
+	text-align: center;
+	line-height: 16px;
+	height: 43px;
+	font-size:1em;
+	font-family: 'Microsoft yahei';
+	border-radius:4px;
+}
+.btn-chg-ok{
+	color: #ffffff;
+	background-color: #3fa4ef;
+	margin:0 45px 0 0;
+}
+.btn-chg-close{
+	color: #3fa4ef;
+	background-color: #ffffff;
+}
+
+.input-error {
+	outline: 1px solid red !important;
+}
+/***********广东风格*****************/
+.login-top{
+	min-width:700px;
+	margin-top: 4.5%;
+	/* margin:0 auto; */
+	/* width:100%;
+	height:70px; */
+	/* position: relative; */
+}
+.login-logo{
+	margin: 0 auto;
+	width: 46.8%;
+	min-width:700px;
+}
+.login-logo *{
+	display:block;
+	float:left;
+	font-size:22px;
+	font-family: '微软雅黑';
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	width: 100%;
+}
+.login-logo .login-img{
+	width:62%;
+	height:77px;
+	background: url("../img/cas/cas-logo.png") center center no-repeat;
+	background-size:100% 100%;
+}
+.login-logo .title-system{
+	color:#00428E;
+	margin:10px 0 0 10px;
+}
+.login-logo .title-right{
+	color:#707070;
+	background:url("../images/seperate_line.png") left center no-repeat;
+	text-indent:7px;
+	height:41px;
+	line-height:41px;
+	margin:4px 0 0 9px;
+}
+.login-top-right{
+	position:absolute;
+	width:530px;
+	height:70px;
+	right:0;
+	background:url("../images/anwen.png") no-repeat;
+}
+.login-center{
+	min-width:700px;
+	min-height:515px;
+	width:47.5%;
+	margin: 0 auto;
+	margin-top:25px;
+	/* width:900px; */
+	height:560px;
+	background:url("../img/cas/L.png") 0.4px center no-repeat;
+	background-size: 47.5% 100%;
+	position: relative;
+	-webkit-box-shadow:0px 0px 26px 0px rgba(96, 7, 5, 0.22);
+	box-shadow:0px 0px 26px 0px rgba(96, 7, 5, 0.22);
+	-moz-box-shadow:0px 0px 26px 0px rgba(96, 7, 5, 0.22);
+	border-top: 3px solid #ea3f3f;
+	/* opacity:0.36; */
+}
+.login-inputs{
+	width:52.5%;
+	height:100%;
+	/* width:500px;
+	height:560px; */
+	right:0;
+	position: absolute;
+	background:#ffffff;
+	border-radius:0 4px 4px 0;
+}
+.login-bottom{
+	height:45px;
+	width:100%;
+	background:url("../images/bottom.png") center 0 no-repeat;
+	text-align: center;
+	position: absolute;
+	bottom:0;
+	line-height: 45px;
+	color:#fff;
+}
+.btn-submit{
+	display:block;
+	width:100%;
+	height:40px;
+	background-color:#ea3f3f;
+	border:none;
+	color:#fff;
+	font-size:18px;
+	float:left;
+	line-height: 40px;
+	/* font-family:"Arial"; */
+	/* font-weight:bold; */
+	border-radius:4px;
+	cursor:pointer;
+}
+.btn-submit:hover{
+	/*cursor:pointer;*/
+	/*background-color:#3884ff;*/
+}
+.calogin{
+	/* margin-left:6.4%; */
+	float:right;
+	background-color:#d81f25;
+}
+.calogin:hover{
+	cursor:pointer;
+	background-color:#f03855;
+}
+
+.btn_login{
+	/* width:322px; */
+	width:64%;
+	float:left;
+	margin:0 0 20px 92px;
+	margin-left:18.4%;
+	text-align: center;
+	/* padding:0 20px; */
+}
+.vcode-label{
+	margin:0 0 0 20px;;
+	height:40px;
+	width:40px;
+	display:block;
+	float:left;
+	font-size:12px;
+	cursor: pointer;
+	line-height:20px;
+}
+.vcode-label:hover{
+	text-decoration: underline;
+	color:blue;
+}
+.form-tip{
+	width:64%;
+	height:16px;
+	/* margin:15px 0 0 40px; */
+	margin-left:18.4%;
+	margin-bottom:20px;
+	margin-top: 20px;
+	float:left;
+}
+.other a{
+    width: 15px;
+    float: left;
+    margin-left: 5px;
+    padding-left: 1.5px;
+    text-decoration: none;
+}
+
+
+/* .form-tip .btn-chgpwd{
+	width:80px;
+	display:block;
+	float:left;
+	color:#333;
+	font-size:14px;
+	text-align: right;
+} */
+.btn-chgpwd-span{
+	float:left;
+	font-size:14px;
+	color: #666666;
+	line-height: 16px;
+}
+.login-tools{
+	margin-left:18.4%;
+	padding-top: 14px;
+	/* border-top:1px solid #d8d8d8; */
+	width:64%;
+	height:60px;
+	float:left;
+}
+.login-tools a{
+	display:block;
+	float:left;
+	width:60px;
+	height:90px;
+	position: relative;
+	text-decoration: none;
+}
+.login-tools a span{
+	width:100%;
+	/* height:14px;
+	line-height:14px; */
+	color:#404040;
+	text-align: center;
+	position: absolute;
+	bottom:0;
+	font-size:14px;
+	float:left;
+	left:-5px;
+	top:58px;
+}
+.login-tools a:hover span{
+	width:100%;
+	color:#314FA5;
+}
+.tool-icon-01{
+	background:url("../img/cas/icon-collect.png") no-repeat;
+}
+.tool-icon-01:hover{
+	background:url("../img/cas/icon-collect-hover.png") no-repeat;
+}
+.tool-icon-02{
+	/* margin-left:75px; */
+	background:url("../img/cas/icon-homepage.png") no-repeat;
+}
+.tool-icon-02:hover{
+	/* margin-left:75px; */
+	background:url("../img/cas/icon-homepag-hover.png") no-repeat;
+}
+.login-tools .tool-icon-03{
+	float:right;
+	/* margin-left:75px; */
+	background:url("../img/cas/icon-download.png") no-repeat;
+}
+.tool-icon-03:hover{
+	/* margin-left:75px; */
+	background:url("../img/cas/icon-download-hover.png") no-repeat;
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+	-webkit-text-fill-color: #333;
+}
+.curdate{
+	margin:20px 50px 0 0;
+	height:30px;
+	line-height:30px;
+	width:280px;
+	float:right;
+	color:#333;
+}
+/*包括生物识别等其他登录方式标记的样式*/
+.form-tip .btn-chgpwd{
+	/* margin-left:15px; */
+	display:block;
+	float:right;
+	color:#999999;
+	font-size:14px;
+	line-height:16px;
+	text-align: right;
+}
+.form-tip .chgpwd-img{
+	height:16px;
+	width:16px;
+	float:left;
+	margin-right:8px;
+	background: url("../img/cas/question.png") 0 center no-repeat;
+	/* background-color: #d81f25; */
+}
+.form-tip .other_login{
+	display:block;
+	float:left;
+	color:#333;
+	font-size:14px;
+	text-align: right;
+	margin-left:20px;
+	line-height:16px;
+}
+.form-tip .other_login a{
+	width:16px;
+	float:right;
+	margin-right:5px;
+	text-decoration: none;
+}
+#vcodeForPassword{
+	width:27%;
+}
+#codeimgForPassword{
+	margin-top: 1px!important;
+}
+.pwdInfo .vcode-label{
+	width: 12%;
+	line-height: 17px;
+	margin-left: 5px;
+}
+.form-item-verification{
+	margin-bottom:0;
+}
+.error-msg{
+	width: 64%;
+	float:left;
+	height:20px;
+	margin-left:18.4%;
+	position: absolute;
+	top: 288px;
+	overflow: hidden;
+}
+.error-msg span{
+	height:20px;
+	line-height:20px;
+	color:#d81f25;
+	font-size:14px;
+}
+.bottom-line{
+	height:2px;
+	width:72%;
+	background:url("../img/cas/line.png") 0 center;
+	float: left;
+	margin-left: 18.4%;
+}
+.item-first{
+	margin-top:23px;
+}
+.other{
+    float: left;
+    overflow: hidden;
+	width: 15%;
+    height: 20px;
+    margin-top:-2px;
+}
+.validate{
+	height:20px;
+	color: red;
+	font-size: 14px;
+}
+.validateError{
+	height:20px;
+	color: red;
+	font-size: 14px;
+}
+.bg-center-bottom{
+	width: 100%;
+	height: 88px;
+	position: absolute;
+	bottom: 0;
+}
+.bg-top{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:358px;
+}
+.bg-all{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.mask{background-color:#000; position:absolute; z-index:99; left:0; top:0;width:100%; height:100%;opacity:0.4;filter:alpha(opacity=40);-moz-opacity:0.4;display:none;}
+/*密码修改框*/
+.psdmodify{width:394px;border:4px solid #666;position:absolute;top:0px;left:0px;background:#f5f5f5;overflow:hidden;z-index:999;display:none;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#E5ffffff,endColorstr=#E5ffffff);}
+.psdmodify .title {width:344px;height:40px;line-height:40px;border-bottom:1px solid #eee; background:url(../img/016.png) no-repeat 25px center;padding-left:50px;font-size:16px;color:#FF7200;}
+.psdmodify .title .close {display:block;width:12px;height:12px; background:url(../img/w_icon.png) no-repeat 0 0;float:right;margin:14px 14px}
+.psdmodify td{height:50px;line-height:32px;}
+.psdmodify .lable {font-size:16px;color:#333;width:80px;text-align:right;padding-right:10px;}
+.psdmodify td input{width:262px;height:32px;border:1px solid #E3E1DD}
+.psdmodify td.errornotice{background:url(../img/icon_error.png) no-repeat 90px center;text-indent:110px;color:red}
+.psdmodify td.warnnotice{background:url(../img/001.png) no-repeat 90px center;text-indent:110px;color:#CC9900}
+.psdmodify td input.captcha{width:140px;}
+.psdmodify .numberCodeImg{width:100px;height:36px;display:block;float:right}
+.psdmodify .submit {display:block;width:264px;height:50px;line-height:50px;background:#6bb2e8;border:0 none;color:#fff;font-size:20px;cursor:pointer}
+.psdmodify .submit:hover{background:#60a3d6;}

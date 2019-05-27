@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="question">
+
+	<insert id="insertQuestion" parameterClass="map">
+		insert into exam2_question(
+		question_typeid,
+		question_content,
+		question_tips,
+		question_pid,
+		is_leaf,
+		leaf_num,
+		question_level,
+		question_difficulty,
+		audit_state,
+		question_answer,
+		question_explain,
+		user_id,
+		create_time,
+		flag
+		)values(
+		#question_typeid#,
+		#question_content#,
+		#question_tips#,
+		#question_pid#,
+		#is_leaf#,
+		#leaf_num#,
+		#question_level#,
+		#question_difficulty#,
+		#audit_state#,
+		#question_answer#,
+		#question_explain#,
+		#user_id#,
+		now(),
+		#flag#
+		)
+		<selectKey resultClass="java.lang.Integer" keyProperty="question_id">
+			SELECT currval('exam2_question_question_id_seq')
+		</selectKey>
+	</insert>
+
+	<insert id="insertChoice" parameterClass="map">
+		insert into exam2_choice_item(
+		qid,
+		content,
+		is_right
+		)values(
+		#qid#,
+		#content#,
+		#is_right#
+		)
+		<selectKey resultClass="java.lang.Integer" keyProperty="id">
+			SELECT currval('exam2_choice_item_id_seq')
+		</selectKey>
+	</insert>
+
+	<update id="updateAnswer" parameterClass="map">
+		update exam2_question
+		<dynamic prepend="SET">
+			<isPropertyAvailable property="question_answer" prepend=",">
+				question_answer = #question_answer#
+			</isPropertyAvailable>
+			<isPropertyAvailable property="leaf_num" prepend=",">
+				leaf_num = #leaf_num#
+			</isPropertyAvailable>
+		</dynamic>
+		where question_id = #question_id#
+	</update>
+
+	<insert id="insert_chapter_question" parameterClass="map">
+		insert into exam2_chapter_question(
+			chapter_id,
+			question_id,
+			flag
+		)values(
+			#chapter_id#,
+			#question_id#,
+			#flag#
+		)
+	</insert>
+
+	<select id="queryChapter" parameterClass="map" resultClass="java.util.HashMap">
+		select chapter_id as id,
+		       chapter_pid as pid,
+		       chapter_name as name,
+		       is_leaf as isleaf,
+				sort_id as sort
+		  from exam2_chapter
+		where flag = '1'
+		  order by sort_id
+	</select>
+
+</sqlMap>

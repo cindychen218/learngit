@@ -1,0 +1,428 @@
+@CHARSET "UTF-8";
+body,html { margin: 0; padding: 0; height: 100%; }
+.clear:after { content: "."; display: block; height: 0; width: 0; clear: both; visibility: hidden; }
+.ft-r { float: right }
+.ft-l { float: left }
+.mg-t { margin-top: 10px; }
+a { text-decoration: none; color:inherit;}
+.index-height5 { height: 5%; }
+.index-height10 { height: 10%; }
+.index-height20 { height: 20%; }
+.index-height40 { height: 50%; }
+.index-height25 { height: 15%; }
+.index-bg { position: absolute; left: 0; right: 0; bottom: 0; top: 0; background: url(../img/cas/jj_welcome/bg.png); background-repeat: no-repeat; background-size: 100% 100%; background-position: center; }
+.index-content { width: 65%; height: 100%; min-width: 1190px; margin: 0 auto; box-sizing: border-box; }
+.index-header { line-height: 64px; position: relative; }
+.index-logo { width: 94%; height: 58%; background: url(../img/cas/jj_welcome/logo.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.index-title { height: 21%; background: url(../img/cas/jj_welcome/logo2.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.index-hr { height: 21%; }
+.btn-fixed { position: absolute; right: 0; top: 0; }
+.btn-exit { width: 90px; height: 30px; margin: 16px 0 0 15px; line-height: 30px; text-align: center; background-color: #e42b2b; border-radius: 15px; font-size: 14px; color: #ffffff; position: relative; cursor: pointer; }
+.part-5 { width: 20%; height: 100%; float: left; overflow: hidden; box-sizing: border-box; }
+.index-title{
+    height: 21%;
+    background: url(../img/cas/jj_welcome/logo2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+.index-height40{
+    background-color: #FFFFFF;
+}
+.part1-content{
+    margin-top: 3%;
+    float: left;
+    height: 87%;
+    width: 40%;
+    margin-left: 2%;
+    border: 1px solid #E3E3E3;
+}
+.part2-content{
+    margin-top: 3%;
+    float: left;
+    height: 87%;
+    width: 54%;
+    margin-left: 2%;
+    border: 1px solid #E3E3E3;
+}
+.part1-picture1{
+    background: url(../img/cas/jj_welcome/chegnduNPCjudicialsupervision.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 15%;
+    width: 52%;
+    float: left;
+    margin-top: -6%;
+    margin-left: 15px;
+    background-color: #FFFFFF;
+    cursor:pointer;
+}
+.part1-picture2{
+    height: 15%;
+    float: right;
+    color: #A5A5A5;
+    margin-top: -2%;
+    margin-right: 15px;
+    width: 90px;
+    text-align: center;
+    background-color: #FFFFFF;
+    cursor:pointer;
+}
+.index-content{
+    width: 76%;
+}
+/*左边css*/
+.part1-contents{
+    height: 85%;
+    width: 90%;
+    margin-left: 5%;
+    float: left;
+}
+.part1-contents-part{
+    height: 16%;
+    width: 100%;
+    cursor:pointer;
+
+}
+/*.part1-contents-part:hover{
+    color: red;
+}*/
+.picture{
+    height: 100%;
+    width: 2%;
+    background: url(../img/cas/jj_welcome/jx727.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    float: left;
+}
+.part1-contents-part-text1{
+    float: left;
+    height: 100%;
+    width: 80%;
+    line-height: 45px;
+    font-size: 16px;
+}
+.part1-contents-part-text2{
+    float: right;
+    height: 100%;
+    width: 15%;
+    line-height: 40px;
+    text-align: right;
+}
+/*右边css*/
+.part2-content-top{
+    height: 50%;
+    width: 100%;
+}
+.part2-content-top-picture{
+    width: 25%;
+    height: 80%;
+    margin-top: 3%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.part2-content-top-picture-img{
+    width: 40%;
+    height: 60%;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.part2-content-top-picture-img2{
+    width: 40%;
+    height: 30%;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.img1{
+    background-image: url(../img/cas/jj_welcome/001.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+
+}
+.img2_1{
+    background-image: url(../img/cas/jj_welcome/scjd.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img2_2{
+    background-image: url(../img/cas/jj_welcome/dbfw.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img2_3{
+    background-image: url(../img/cas/jj_welcome/sjfx.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img2_4{
+    background-image: url(../img/cas/jj_welcome/qjzx.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img2{
+    background-image: url(../img/cas/jj_welcome/002.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img3{
+    background-image: url(../img/cas/jj_welcome/003.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img4{
+    background-image: url(../img/cas/jj_welcome/004.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.part2-content-bottom-picture{
+    width: 33%;
+    height: 80%;
+    margin-top: 5%;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.part2-content-bottom-picture-img{
+    width: 40%;
+    height: 60%;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.part2-content-bottom-picture-img2{
+    width: 40%;
+    height: 25%;;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.img5{
+    background-image: url(../img/cas/jj_welcome/005.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img2_5{
+    background-image: url(../img/cas/jj_welcome/zkxzgl.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img6{
+    background-image: url(../img/cas/jj_welcome/006.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.img2_6{
+    background-image: url(../img/cas/jj_welcome/sjzyk.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img7{
+    background-image: url(../img/cas/jj_welcome/007.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img2_7{
+    background-image: url(../img/cas/jj_welcome/jczlk.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+/*鼠标移入切换图片*/
+.img1_1{
+    background-image: url(../img/cas/jj_welcome/001_1.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_2{
+    background-image: url(../img/cas/jj_welcome/001_2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_3{
+    background-image: url(../img/cas/jj_welcome/001_3.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_4{
+    background-image: url(../img/cas/jj_welcome/001_4.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_5{
+    background-image: url(../img/cas/jj_welcome/001_5.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_6{
+    background-image: url(../img/cas/jj_welcome/001_6.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_7{
+    background-image: url(../img/cas/jj_welcome/001_7.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 100%;
+}
+.img1_8{
+    background-image: url(../img/cas/jj_welcome/001_8.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 19%;
+    background-position: center;
+}
+.img1_9{
+    background-image: url(../img/cas/jj_welcome/001_8.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 19%;
+    background-position: center;
+}
+.img1_10{
+    background-image: url(../img/cas/jj_welcome/001_8.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 19%;
+    background-position: center;
+}
+.img1_11{
+    background-image: url(../img/cas/jj_welcome/001_8.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 19%;
+    background-position: center;
+}
+.img1_12{
+    background-image: url(../img/cas/jj_welcome/001_8.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 19%;
+    background-position: center;
+}
+/*下方样式*/
+.part3-content{
+    margin-top: 1%;
+    float: left;
+    height: 16%;
+    width: 96%;
+    margin-left: 2%;
+}
+.part3-content-part{
+    width: 15.5%;
+    height: 100%;
+    float: left;
+    margin-left: 1.4%;
+    background-color: #F2F2F2;
+    cursor: pointer;
+}
+/*.part3-content-part-center{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    float: left;
+}*/
+.part3-content-part-img{
+    float: left;
+    width: 20%;;
+    height: 100%;
+    margin-left: 5%;
+}
+.part3-content-part-name{
+    float: left;
+    width: auto;
+    height: 100%;
+    font-size: 16px;
+    line-height: 80px;
+    font-weight: bold;
+}
+.part3-content-part-message{
+    font-size: 12px;
+    width: 20px;
+    float: left;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 7%;
+    background-color: red;
+    height: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.img8{
+    background-image: url(../img/cas/jj_welcome/008.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20%;
+    background-position: center;
+}
+.img9{
+    background-image: url(../img/cas/jj_welcome/008.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20%;
+    background-position: center;
+}
+.img10{
+    background-image: url(../img/cas/jj_welcome/008.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20%;
+    background-position: center;
+}
+.img11{
+    background-image: url(../img/cas/jj_welcome/008.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20%;
+    background-position: center;
+}
+.img12{
+    background-image: url(../img/cas/jj_welcome/008.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 20%;
+    background-position: center;
+}
+.part3-content-part-border{
+    border: 2px solid #A41818;
+    width: 0px;
+    height: 94%;
+    float: left;
+}
+.index-content{
+    width: 74%;
+}
+.index-guide { width: 740px; margin: 0px auto 0; position: absolute; bottom : 5%; left: 0; right: 0; }
+.font-footer {	font-size: 16px; color: #404040; text-align: center; }
+.window-flx{ position: absolute; top: 100px; left: 100px; right: 100px; bottom: 200px; background-color: #FFFFFF; display: none; }
+.achive{background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#fff), to(#000));}

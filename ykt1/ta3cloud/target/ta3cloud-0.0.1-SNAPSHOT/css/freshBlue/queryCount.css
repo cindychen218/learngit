@@ -1,0 +1,89 @@
+@charset "utf-8";
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #333;
+	margin: 0;
+}
+.to_left {
+	float: left;
+}
+.to_right {
+	float: right;
+}
+.clean {
+	clear: both;
+}
+#datagrid_query_id {
+   border-collapse: collapse;
+   margin-bottom: 5px;
+}
+#datagrid_query_id #datagrid_title_id {
+	color: #0A4684;
+    background-color: #d8ecff;
+	height: 30px;
+}
+#datagrid_query_id tr td {
+	height: 22px!important;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	text-align: center;
+	border: 1px solid #a8d1f8;
+	}
+#detailInfoParasId,#detailInfoFiledTitleId,#detailInfoFiledOrderId{
+   display: none;
+}
+.slick-grid-container{
+  border:1px solid #ccccff;
+}
+.slick-header{
+   background-color: #d3e8f7;
+}
+.tafieldset_163{
+  padding: 0px 0px 0px 0px;
+}
+.tafieldset_header {
+    height: 35px;
+}
+ul.ztree{
+    margin-top: 10px;
+    width: 97%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+.menuContent{
+    position: absolute;
+    left: 52px;
+    top: 110px;
+    display: block;
+}
+#groupByItemsId{
+   border: 1px solid #ccccff;
+   height:166px;
+   /* width:100%; */
+   overflow:auto;
+   margin-top:0px;
+   padding-left: 20px;
+   padding-top: 1px;
+}
+#groupByItemsId div{
+    border: 0px solid #ccccff;
+    height: 30px;
+    line-height: 32px;
+    margin-right: 12px;
+    float: left;
+}
+#nr_td_id div{
+    border: 0px solid #ccccff;
+    margin-right: 13px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+}
+input{
+ border: #999 1px solid;
+ line-height: 19px;
+}
+.datagrid_dele_tr{
+    color:#419ff4;
+}

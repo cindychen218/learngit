@@ -1,0 +1,15 @@
+{
+  "name": "@yh/clientEnvironment",
+  "version": "1.0.0",
+  "description": "clientEnvironment",
+  "main": "clientEnvironment.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xp",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "jquery":"1.11.0"
+  }
+}

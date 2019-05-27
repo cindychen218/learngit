@@ -1,0 +1,14 @@
+.WdateFmtErr{
+	font-weight:bold;
+	color:red;
+}
+.shadingWdate{
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	background: #FFFFFF;
+	opacity: 0;
+	filter:alpha(opacity=0);
+	width:100%;
+	left:0px;
+}

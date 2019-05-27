@@ -1,0 +1,89 @@
+@CHARSET "UTF-8";
+body,html { margin: 0; padding: 0; height: 100%; }
+.clear:after { content: "."; display: block; height: 0; width: 0; clear: both; visibility: hidden; }
+.ft-r { float: right }
+.ft-l { float: left }
+.mg-t { margin-top: 10px; }
+a { text-decoration: none; color:inherit;}
+.display { display: none; }
+.index-height5 { height: 5%; }
+.index-height10 { height: 10%; }
+.index-height20 { height: 20%; }
+.index-height40 { height: 50%; }
+.index-height25 { height: 15%; }
+.index-bg { position: absolute; left: 0; right: 0; bottom: 0; top: 0; background: url(../img/cas/welcome/welcome-bg.jpg); background-repeat: no-repeat; background-size: 100% 100%; background-position: center; }
+.index-content { width: 65%; height: 100%; min-width: 1190px; margin: 0 auto; box-sizing: border-box; }
+.index-header { line-height: 64px; position: relative; }
+.index-logo { width: 94%; height: 58%; background: url(../img/cas/welcome/welcome-logo.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.index-title { height: 21%; background: url(../img/cas/welcome/welcome-title.png); background-repeat: no-repeat; background-size: contain; background-position: center; }
+.index-hr { height: 21%; }
+.btn-fixed { position: absolute; right: 0; top: 0; }
+.btn-exit { width: 90px; height: 30px; margin: 16px 0 0 15px; line-height: 30px; text-align: center; background-color: #e42b2b; border-radius: 15px; font-size: 14px; color: #ffffff; position: relative; cursor: pointer; }
+.part-5 { width: 20%; height: 100%; float: left; overflow: hidden; box-sizing: border-box; }
+.one-part-img { width: 100%; height: 100%; background-position: center; background-size: contain; background-repeat: no-repeat; margin: 0 auto; cursor: pointer }
+.one-part-img.img1 { background-image: url(../img/cas/welcome/part1.png) }
+.one-part-img.img2 { background-image: url(../img/cas/welcome/part2.png) }
+.one-part-img.img3 { background-image: url(../img/cas/welcome/part3.png) }
+.one-part-img.img4 { background-image: url(../img/cas/welcome/part4.png) }
+.one-part-img.img5 { background-image: url(../img/cas/welcome/part5.png) }
+.one-part-img.hide-img1, .one-part-img.img1:hover { background-image: url(../img/cas/welcome/part1-hover.png) }
+.one-part-img.hide-img2, .one-part-img.img2:hover { background-image: url(../img/cas/welcome/part2-hover.png) }
+.one-part-img.hide-img3, .one-part-img.img3:hover { background-image: url(../img/cas/welcome/part3-hover.png) }
+.one-part-img.hide-img4, .one-part-img.img4:hover { background-image: url(../img/cas/welcome/part4-hover.png) }
+.one-part-img.hide-img5, .one-part-img.img5:hover { background-image: url(../img/cas/welcome/part5-hover.png) }
+.part-inner { position: absolute; width: 100%; height: 390px; padding: 0 2px; box-sizing: border-box; border-radius: 6px; transition: all .8s; margin-top: -390px; }
+.part-inner.active { margin-top: 0px; }
+.part-inner.part1 { background-color: #378fe5; }
+.part-inner.part2 { background-color: #29cb81; }
+.part-inner.part3 { background-color: #32a9e0; }
+.part-inner.part4 { background-color: #f26439; }
+.part-inner.part1.active { box-shadow: 0px 4px 6px 0px rgba(55, 143, 229, 0.5); }
+.part-inner.part2.active { box-shadow: 0px 4px 6px 0px rgba(41, 203, 129, 0.5); }
+.part-inner.part3.active { box-shadow: 0px 4px 6px 0px rgba(86, 195, 245, 0.5); }
+.part-inner.part4.active { box-shadow: 0px 4px 6px 0px rgba(242, 100, 57, 0.5); }
+.inner-title { width: 100px; height: 40px; margin: 0 auto; line-height: 40px; font-size: 20px; color: #ffffff; background-position: left center; background-repeat: no-repeat; background-size: 24px 24px; padding-left: 40px }
+.inner-title.title1 { background-image: url(../img/cas/welcome/title1.png) }
+.inner-title.title2 { background-image: url(../img/cas/welcome/title2.png) }
+.inner-title.title3 { background-image: url(../img/cas/welcome/title3.png) }
+.inner-title.title4 { background-image: url(../img/cas/welcome/title4.png) }
+.inner-box { height: 348px; padding: 10px; box-sizing: border-box; background-color: #ffffff; color: #404040; margin: 0 auto; border-bottom-left-radius: 6px; border-bottom-right-radius: 6px;  }
+.inner1-title { font-size: 16px; font-weight: bold; height: 30px; line-height: 30px; }
+.inner1-circle { width: 10px; height: 10px; border-radius: 50%; background-color: #378fe5; float: left; position: relative; margin: 11px 16px 0 -4px; }
+.inner1-circle:before { width: 2px; height: 10px; background-color: #f5f5f5; content: ''; position: absolute; top: -10px; left: 4px; }
+.inner1-circle:after { width: 2px; height: 10px; background-color: #f5f5f5; content: ''; position: absolute; top: 10px; left: 4px; }
+.inner1-info { border-left: 2px solid #f5f5f5; padding-left: 30px;}
+.inner1-info >p { margin: 0; padding: 2px 0; font-size: 14px }
+.inner1-info a:hover { border-bottom: solid 1px #378fe5; color: #378fe5; cursor: pointer; }
+.inner2-box { width: 50%; float: left; }
+.inner2-title { font-size: 16px; font-weight: bold; }
+.title-menu:hover { cursor: pointer; color: #29cb81 }
+.inner2-info { font-size: 14px; padding: 3px 0 3px 16px; background-image: url(../img/cas/welcome/p2.png); background-repeat: no-repeat; background-position: left center; background-size: 12px 12px; }
+.inner2-info:hover { background-image: url(../img/cas/welcome/p2h.png); }
+.inner2-info:hover a { border-bottom: solid 1px #29cb81; color: #29cb81; cursor: pointer; }
+.inner3-title { font-size: 16px; padding-left: 16px; margin-bottom: 20px; cursor: pointer; background-image: url(../img/cas/welcome/p2.png); background-repeat: no-repeat; background-position: left center; background-size: 12px 12px; }
+.inner3-title:hover { color: #32a9e0; background-image: url(../img/cas/welcome/p3h.png); }
+.inner3-box { padding-left: 16px; }
+.inner3-info { font-size: 14px; padding: 3px 0 3px 16px; background-image: url(../img/cas/welcome/p2.png); background-repeat: no-repeat; background-position: left center; background-size: 12px 12px; }
+.inner3-info:hover { background-image: url(../img/cas/welcome/p3h.png); }
+.inner3-info:hover a { border-bottom: solid 1px #32a9e0; color: #32a9e0; cursor: pointer; }
+.inner4-box{ height: 20px;width: 100px; margin: 0 auto;}
+.inner4-img { width: 80px; height: 80px; margin: 160px auto 20px; background-image: url(../img/cas/welcome/code.png); background-repeat: no-repeat; background-position: center; background-size: contain; }
+.inner4-title { font-size: 20px; text-align: center; margin: 6px auto; }
+.inner4-info { font-size: 14px; text-align: center; color: #999999;  margin: 0 }
+.index-guide { width: 740px; margin: 0px auto 0; position: absolute; bottom : 5%; left: 0; right: 0; }
+.part-3-hr { width: 1px; height: 60px; margin-right: 50px; float: left; background-image: url(../img/cas/welcome/line.png); background-size: contain; background-position: center; background-repeat: no-repeat;  }
+.part-3-img { height: 60px; line-height: 60px; float: left; background-position: left center; background-size: 40px 40px; background-repeat: no-repeat; padding: 0 50px; color: #404040; font-weight: bold; font-size: 20px; }
+.part-3-img:hover span { cursor: pointer; font-family: 'Microsoft YaHei'; color: #e42b2b; border-bottom: solid 2px red; padding-bottom: 2px; font-weight: bold; }
+.part-3-img.img1 { background-image: url(../img/cas/welcome/guide1.png) }
+.part-3-img.img2 { background-image: url(../img/cas/welcome/guide2.png) }
+.part-3-img.img3 { background-image: url(../img/cas/welcome/guide3.png); padding-right: 0px; }
+.guide-img {  background-position: center; margin-top: 13px; background-size: 100% 100%; background-repeat: no-repeat; cursor: pointer }
+.guide1 { width: 127px; height: 33px; background-image: url(../img/cas/welcome/g1.png) }
+.guide2 { width: 96px; height: 33px; background-image: url(../img/cas/welcome/g2.png) }
+.guide3 { width: 128px; height: 33px; background-image: url(../img/cas/welcome/g3.png) }
+.guide1:hover { width: 128px; height: 37px; background-image: url(../img/cas/welcome/g1h.png) }
+.guide2:hover { height: 37px; background-image: url(../img/cas/welcome/g2h.png) }
+.guide3:hover { height: 37px; background-image: url(../img/cas/welcome/g3h.png) }
+.font-footer {	font-size: 16px; color: #404040; text-align: center; }
+.mg-b4 { margin-bottom: 35px; }
+.window-flx{ position: absolute; top: 100px; left: 100px; right: 100px; bottom: 200px; background-color: #FFFFFF; display: none; }

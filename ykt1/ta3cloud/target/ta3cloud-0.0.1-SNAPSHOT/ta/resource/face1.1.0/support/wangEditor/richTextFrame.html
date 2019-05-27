@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/wangEditor.css">
+</head>
+<body style="margin:0">
+<div id="richBox">
+    <!--用当前元素来控制高度-->
+    <div id="richMan"></div>
+</div>
+</body>
+</html>
+<script src="../jquery/jquery-1.11.0.min.js"></script>
+<script src="js/wangEditor.js"></script>
+<script>
+    $(document).ready(function(){
+        var frameObj = window.parent.attributeObj;
+        $("#richMan").attr("id", frameObj.id);
+        $("#richBox").css("width", frameObj.width);
+        $("#"+frameObj.id).css("height", $(window).height());
+        wangEditor.config.printLog = false;
+        editor = new wangEditor(frameObj.id);
+        editor.config.uploadImgUrl = 'show';
+        editor.config.hideLinkImg = true;
+        //配置菜单
+        editor.config.menus = [
+            'source',
+            '|',
+            'bold',
+            'underline',
+            'italic',
+            'strikethrough',
+            'eraser',
+            'forecolor',
+            'bgcolor',
+            '|',
+            'quote',
+            'fontfamily',
+            'fontsize',
+            'head',
+            'unorderlist',
+            'orderlist',
+            'alignleft',
+            'aligncenter',
+            'alignright',
+            '|',
+            'table',
+            'img',
+            'insertcode',
+        ];
+        editor.create();
+    });
+
+</script>
