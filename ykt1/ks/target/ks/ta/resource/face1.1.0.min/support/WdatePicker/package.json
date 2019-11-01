@@ -10,6 +10,6 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "jquery":"1.11.0"
+    "jquery":"3.4.1"
   }
 }
