@@ -56,7 +56,7 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
-            <version>3.14</version>
+            <version>4.1.1</version>
         </dependency>
         <!-- poi-ooxml:07版之后的OpenXML格式 -->
         <dependency>
